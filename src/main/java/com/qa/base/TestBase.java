@@ -9,6 +9,7 @@ import java.util.Properties;
 public class TestBase {
 
 	public Properties prop;
+	public int RESPONSE_STATUS_CODE_200 = 200;
 	
 	public TestBase() {
 		prop = new Properties();

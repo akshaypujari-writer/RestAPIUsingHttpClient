@@ -5,8 +5,8 @@
     <classes>
       <class name="com.qa.tests.GetAPITest">
         <methods>
-          <include name="getAPITest"/>
           <include name="setUp"/>
+          <include name="getAPITest2"/>
         </methods>
       </class> <!-- com.qa.tests.GetAPITest -->
     </classes>
