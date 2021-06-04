@@ -24,4 +24,9 @@ public class GetAPITest extends TestBase {
 		myrestclient = new MyRestClient();
 		myrestclient.get(url + apiurl);
 	}
+	
+	@Test
+	public void postAPITest() {
+		System.out.println("This is a post request");
+	}
 }
